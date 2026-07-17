@@ -229,7 +229,7 @@ from src.retrieval import SemanticSearch
 from src.rag_service import RAGService
 
 # Initialize retrieval
-search = SemanticSearch("./data/linux_docs.db")
+search = SemanticSearch("../data/linux_docs.db")
 
 # Retrieve relevant contexts
 question = "How do I partition the disk during Arch Linux installation?"

@@ -29,7 +29,7 @@ from src.database import Database, init_database
 import numpy as np
 
 # Initialize database
-db = init_database("./data/linux_docs.db")
+db = init_database("../data/linux_docs.db")
 
 # Add a text chunk
 chunk_id = db.add_chunk(
@@ -207,7 +207,7 @@ retrieved = cache.get("key1")
 from src.retrieval import SemanticSearch, semantic_search
 
 # Initialize search engine
-search = SemanticSearch(db_path="./data/linux_docs.db")
+search = SemanticSearch(db_path="../data/linux_docs.db")
 
 # Semantic search (top-5 similar documents)
 query = "How do I partition the disk?"
@@ -234,7 +234,7 @@ search.close()
 # Convenient one-liner
 results = semantic_search(
     query="How to install Arch?",
-    db_path="./data/linux_docs.db",
+    db_path="../data/linux_docs.db",
     top_k=5
 )
 ```
@@ -245,7 +245,7 @@ results = semantic_search(
 from src.rag_service import RAGService, RAGPipeline, rag_answer
 
 # Initialize RAG service
-rag = RAGService(db_path="./data/linux_docs.db")
+rag = RAGService(db_path="../data/linux_docs.db")
 
 # Get service status
 status = rag.get_status()
@@ -271,14 +271,14 @@ print(result)
 rag.close()
 
 # Using RAG Pipeline (higher-level interface)
-pipeline = RAGPipeline(db_path="./data/linux_docs.db")
+pipeline = RAGPipeline(db_path="../data/linux_docs.db")
 result = pipeline.process_query("How do I install packages?", top_k=5)
 pipeline.close()
 
 # Simple one-liner
 result = rag_answer(
     query="How do I dual boot?",
-    db_path="./data/linux_docs.db",
+    db_path="../data/linux_docs.db",
     top_k=5
 )
 ```

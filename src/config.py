@@ -18,7 +18,7 @@ class Config:
     # ============================================
     # Database Configuration
     # ============================================
-    DB_PATH = os.getenv("DB_PATH", "./data/linux_docs.db")
+    DB_PATH = os.getenv("DB_PATH", "../data/linux_docs.db")
 
     # ============================================
     # Crawler Configuration
