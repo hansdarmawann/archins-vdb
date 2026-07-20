@@ -1,5 +1,5 @@
 """
-Configuration management for the Archins-VDB project.
+Configuration management for the Archins-rag project.
 
 Loads settings from environment variables and provides default values.
 """

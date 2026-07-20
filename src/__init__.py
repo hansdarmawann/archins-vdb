@@ -1,5 +1,5 @@
 """
-Archins-VDB: Retrieval-Augmented Generation System
+Archins-rag: Retrieval-Augmented Generation System
 
 A comprehensive package for building RAG systems with web documentation.
 """

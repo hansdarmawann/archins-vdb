@@ -57,7 +57,7 @@ Web Documentation
 ### 1. Clone or Download the Repository
 
 ```bash
-cd /Users/u1/Documents/archins-vdb
+cd ../archins-rag
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -68,8 +68,8 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Or using conda
-conda create -n archins-vdb python=3.11
-conda activate archins-vdb
+conda create -n archins-rag python=3.11
+conda activate archins-rag
 ```
 
 ### 3. Install Dependencies
@@ -91,7 +91,7 @@ cp .env.example .env
 ## 📂 Project Structure
 
 ```
-archins-vdb/
+archins-rag/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── .env.example                       # Environment variables template

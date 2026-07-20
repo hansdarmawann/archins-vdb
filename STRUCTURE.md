@@ -3,7 +3,7 @@
 ## Directory Layout
 
 ```
-archins-vdb/
+archins-rag/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
