@@ -1,4 +1,4 @@
-# Archins-VDB: Building a RAG System with Arch Linux Documentation
+# Archins-RAG: Building a RAG System with Arch Linux Documentation
 
 A comprehensive, step-by-step tutorial for building a complete **Retrieval-Augmented Generation (RAG)** system from scratch. This project demonstrates how to crawl documentation, process text, generate embeddings, and create a semantic search service with LLM integration.
 
